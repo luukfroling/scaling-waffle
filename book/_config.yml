@@ -14,7 +14,7 @@ execute:
 html:
   use_multitoc_numbering    : true                  # Default value (line can be removed), sets continuous numbering across parts/chapters, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html). Same functionality per section can be defined with sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
   extra_footer              : ""                    # Default value (line can be removed), sets text to be displayed underneath the footer, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
-  baseurl : "https://<your_username>.github.io/<your_repository_name>/"
+  baseurl : "https://luukfroling.github.io/scaling-waffle/"
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   extra_extensions:                                  # Sets a list of extensions to load by sphinx, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
@@ -34,7 +34,7 @@ sphinx:                                              # Options passed on to the 
         text:        Template                        # Replace this with your own book title, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
         image_light: TeachBooks_logo.svg             # Put your logo for the light mode here (can be the same as image_dark), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
         image_dark:  TeachBooks_logo_inverted.svg    # Put your logo for the dark mode here (can be the same as image_light), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
-      repository_url: "https://github.com/luukfroling/scaling_waffle"      
+      repository_url: "https://github.com/luukfroling/scaling-waffle"      
       path_to_docs:          "book"                  # Required for edit_page_button, should be book if you're using TeachBooks package (https://github.com/TeachBooks/TeachBooks) or the TeachBooks deploy book workflow (https://teachbooks.io/manual/external/deploy-book-workflow/README.html), configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
       repository_branch:     "main"                  # Replace when you change the name of your published branch (required for edit_page_button), configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
       use_edit_page_button:  true                    # Replace with false if you don't want the edit page button (i.e. if you don't user to propose changes themselves or have a private repo), configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
